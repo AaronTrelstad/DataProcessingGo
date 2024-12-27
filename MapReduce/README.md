@@ -1,1 +1,2 @@
-Summarizes 5 million record csv file
+MapReduce handles the concurrent processing of large datasets
+
