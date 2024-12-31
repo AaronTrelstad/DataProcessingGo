@@ -1,1 +1,1 @@
-SSTable is a storage technique that uses sequential writes this gives fast write times but can result in slower read times from searching the entire file
+SSTable is a storage technique that uses sequential writes this gives fast write times but can result in slower read times from searching the entire file. Implemented a Bloom Filter for improving read performance.
