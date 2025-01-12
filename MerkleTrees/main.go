@@ -20,7 +20,7 @@ const storageFile = "file_hashes.json";
 func ComputeMerkleRoot(filename string, blockCount int) (string, error) {
 	fileData, err := os.ReadFile(filename)
 	if err != nil {
-		return "", fmt.Errorf("failed to read file %s: %v", filename, err)
+		return "", fmt.Errorf("failed to read file")
 	}
 
 	blockSize := (len(fileData) + blockCount - 1) / blockCount 
